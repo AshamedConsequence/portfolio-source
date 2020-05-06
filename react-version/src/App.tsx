@@ -1,11 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button, Nav } from 'react-bootstrap';
 
 export default function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Nav variant="pills" defaultActiveKey="/home">
+          <Nav.Item>
+            <Nav.Link href="/home">Active</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="disabled" disabled>
+              Disabled
+    </Nav.Link>
+          </Nav.Item>
+        </Nav>
         <img src="https://avatars2.githubusercontent.com/u/45473363?s=460&u=76fc783175bccafd8c99abdf1d69cb86a6002372&v=4" className="App-logo" alt="logo" loading="lazy" />
         <h2>
           <i>Tarek Ali (DGKSK8LIFE)</i>

@@ -35,9 +35,14 @@
   }
 }
 
-.frontpage_footer a img {
+.frontpage_footer a .github{
   height: auto;
   width: 150px;
+}
+
+.frontpage_footer a .mail {
+  height: auto;
+  width: 148px;
 }
 
 .frontpage_footer a img:hover {

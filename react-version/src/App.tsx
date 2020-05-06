@@ -12,11 +12,11 @@ function App() {
           <i>Tarek Ali (DGKSK8LIFE)</i>
         </h2>
         <footer className="frontpage_footer">
-          <a href="https://github.com/DGKSK8LIFE/"><img src="icons8-github.svg"></img></a>
+          <a href="https://github.com/DGKSK8LIFE/"><img src="icons8-github.svg" className="github"></img></a>
           &nbsp;
           &nbsp;
           &nbsp;
-          <a href="mailto:tarekali15@outlook.com"><img src="interface.svg"></img></a>
+          <a href="mailto:tarekali15@outlook.com"><img src="interface.svg" className="mail"></img></a>
         </footer>
       </header>
     </div>

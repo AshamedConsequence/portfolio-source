@@ -12,6 +12,9 @@ function App() {
         <h2>
           <i>Tarek Ali (DGKSK8LIFE)</i>
         </h2>
+        <footer className="frontpage_footer">
+          <a href="https://github.com/DGKSK8LIFE/"><img src="icons8-github.svg"></img></a>
+        </footer>
       </header>
     </div>
   );

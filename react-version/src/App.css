@@ -34,3 +34,8 @@
     transform: rotate(1080deg);
   }
 }
+
+.frontpage_footer a img {
+  height: auto;
+  width: 150px;
+}

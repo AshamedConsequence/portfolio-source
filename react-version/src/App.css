@@ -39,3 +39,7 @@
   height: auto;
   width: 150px;
 }
+
+.frontpage_footer a img:hover {
+  background-color: white;
+}

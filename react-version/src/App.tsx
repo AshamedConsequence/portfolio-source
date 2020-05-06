@@ -13,6 +13,7 @@ function App() {
         </h2>
         <footer className="frontpage_footer">
           <a href="https://github.com/DGKSK8LIFE/"><img src="icons8-github.svg"></img></a>
+          <a href="mailto:tarekali15@outlook.com"><img src="interface.svg"></img></a>
         </footer>
       </header>
     </div>

@@ -16,11 +16,9 @@ export default function App() {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="{}">Projects</Nav.Link>
-            Disabled
-          </Nav.Link>
         </Nav.Item>
       </Nav>
-    </React.Fragment >
+    </React.Fragment>
     <React.Fragment>
       <div className="App">
         <header className="App-header">
@@ -38,7 +36,7 @@ export default function App() {
         </header>
       </div>
     </React.Fragment>
-  )
+  );
 }
 
 

@@ -7,7 +7,7 @@ import { render } from 'react-dom';
 export default function App() {
   return (
     <React.Fragment>
-      <Nav variant="tabs" defaultActiveKey="/home">
+      <Nav variant="tabs" defaultActiveKey="/">
         <Nav.Item>
           <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
@@ -17,7 +17,7 @@ export default function App() {
         <Nav.Item>
           <Nav.Link href="{}">Projects</Nav.Link>
             Disabled
-    </Nav.Link>
+          </Nav.Link>
         </Nav.Item>
       </Nav>
     </React.Fragment >

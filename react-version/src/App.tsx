@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button, Nav } from 'react-bootstrap';
 import { render } from 'react-dom';
-import { NavBar } from './Nav';
+import NavBar from './Nav';
 
 export default function App() {
   return (

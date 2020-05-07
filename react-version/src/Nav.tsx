@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Nav } from 'react-bootstrap';
 
 export default function NavBar() {

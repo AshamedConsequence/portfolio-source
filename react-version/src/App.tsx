@@ -9,18 +9,18 @@ export default function App() {
     <React.Fragment>
       <Nav variant="tabs" defaultActiveKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home">Active</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+          <Nav.Link href="{}">About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="disabled" disabled>
+          <Nav.Link href="{}">Projects</Nav.Link>
             Disabled
     </Nav.Link>
         </Nav.Item>
       </Nav>
-    </React.Fragment>
+    </React.Fragment >
     <React.Fragment>
       <div className="App">
         <header className="App-header">

@@ -48,3 +48,9 @@
 .frontpage_footer a img:hover {
   background-color: white;
 }
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;

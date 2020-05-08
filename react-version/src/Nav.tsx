@@ -13,6 +13,9 @@ export default function NavBar() {
             <Nav.Item>
                 <Nav.Link href="{}">Projects</Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+                <Nav.Link href="{}">Badges/Certifications</Nav.Link>
+            </Nav.Item>
         </Nav>
     )
 }

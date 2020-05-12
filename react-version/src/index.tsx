@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import About from './About';
 
 ReactDOM.render (
   <React.StrictMode>
@@ -11,6 +12,9 @@ ReactDOM.render (
     <Switch>
       <Route exact path="/">
           <App />
+      </Route>
+      <Route exact path="/about">
+          <About />
       </Route>
     </Switch>
     </BrowserRouter>

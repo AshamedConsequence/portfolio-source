@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Router } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
+ReactDOM.render (
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+          <App />
+      </Route>
+    </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

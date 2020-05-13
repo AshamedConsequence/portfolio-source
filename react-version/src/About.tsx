@@ -17,7 +17,7 @@ export default class About extends React.Component<any, any> {
             lines of <strong>C/C++</strong>. I enjoy Vex and FRC Robotics (I'm on team <strong>6785M and 5829</strong>).
             I'm 14;
             currently living in Houston, TX. For more information, <a
-                href='https://github.com/DGKSK8LIFE/WIKNWINTL/blob/master/README.md' class="wiknwintl">Click Here.</a> I am a native English speaker, and am fluent/semi-fluent in French. Arabic is 
+                href='https://github.com/DGKSK8LIFE/WIKNWINTL/blob/master/README.md' className="wiknwintl">Click Here.</a> I am a native English speaker, and am fluent/semi-fluent in French. Arabic is 
                 my third language; I can read and write it in but definitely need some improvement. I am also learning Russian (self-taught).</p>
           <footer className="frontpage_footer">
             <a href="https://github.com/DGKSK8LIFE/"><img src="icons8-github.svg" className="github"></img></a>

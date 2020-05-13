@@ -9,7 +9,7 @@ export default class About extends React.Component<any, any> {
           <h1>
             <i>About</i>
           </h1>
-            <p>I'm very interested in <strong>server-side</strong> development and <strong>webservices/relational datastructures/informational security</strong>. I know 
+            <p className="about-block">I'm very interested in <strong>server-side</strong> development and <strong>webservices/relational datastructures/informational security</strong>. I know 
              <strong> go</strong>, <strong>js</strong>, <strong>python</strong>, <strong>java</strong>, and
             <strong> html/css</strong>.
             I've also

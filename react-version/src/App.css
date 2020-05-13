@@ -52,3 +52,9 @@
 .App-header .wiknwintl {
   color: grey;
 }
+
+.about-block {
+  text-align: left;
+  margin-left: 45px;
+  margin-right: 45px;
+}

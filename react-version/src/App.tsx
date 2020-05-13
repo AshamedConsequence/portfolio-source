@@ -13,6 +13,7 @@ export default class App extends React.Component<any, any> {
           <a className="nav-item nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
       <a className="nav-item nav-link" href="/about">About Me</a>
       <a className="nav-item nav-link" href="/knowledge">My Knowledge</a>
+      <a className="nav-item nav-link" href="/certs">Badges/Certifications</a>
     </div>
   </div>
         </nav>

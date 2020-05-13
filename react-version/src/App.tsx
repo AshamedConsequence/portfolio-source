@@ -16,6 +16,10 @@ export default class App extends React.Component<any, any> {
           &nbsp;
           &nbsp;
           <a href="mailto:tarekali15@outlook.com"><img src="interface.svg" className="mail"></img></a>
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <a href="https://twitter.com/TarekAl62101525"><img src="twitter.svg" className="twitter"></img></a>
           </footer>
         </header>
       </div>

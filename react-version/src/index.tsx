@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import About from './About';
 import Certs from './Certs';
+import Knowledge from './Knowledge';
 
 ReactDOM.render (
   <React.StrictMode>
@@ -19,6 +20,9 @@ ReactDOM.render (
       </Route>
       <Route exact path="/certs">
           <Certs />
+      </Route>
+      <Route exact path="/knowledge">
+          <Knowledge />
       </Route>
     </Switch>
     </BrowserRouter>

@@ -10,6 +10,7 @@ export default class Knowledge extends React.Component<any, any> {
             <i>Knowledge</i>
           </h1>
           <div className="Knowledge-headers">
+          <a className="wiknwintl" href="https://github.com/DGKSK8LIFE/WIKNWINTL"><p>For more info, click here.</p></a>
             <h3>Backend</h3>
             <ul>
               <li>Go</li> 
@@ -22,10 +23,10 @@ export default class Knowledge extends React.Component<any, any> {
             </ul>
             <h3>Frontend</h3>
             <ul>
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>Javascript/Typescript</li>
-            <li>React</li>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>Javascript/Typescript</li>
+              <li>React</li>
             </ul>
             <h3>Database technologies</h3>
             <ul>

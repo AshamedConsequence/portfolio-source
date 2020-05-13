@@ -18,6 +18,7 @@ export default class App extends React.Component<any, any> {
         </nav>
         <header className="App-header">
           <img src="https://avatars2.githubusercontent.com/u/45473363?s=460&u=76fc783175bccafd8c99abdf1d69cb86a6002372&v=4" className="App-logo" alt="logo" loading="lazy" />
+          <br></br>
           <h1>
             <i>Tarek Ali (DGKSK8LIFE)</i>
           </h1>

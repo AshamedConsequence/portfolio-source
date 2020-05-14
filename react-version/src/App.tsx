@@ -5,7 +5,8 @@ export default class App extends React.Component<any, any> {
   render() {
     return (
       <div className="App">
-        <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+        <header className="App-header">
+        <nav className="navbar navbar-light navbar-expand-lg">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span>
           </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -17,7 +18,6 @@ export default class App extends React.Component<any, any> {
     </div>
   </div>
         </nav>
-        <header className="App-header">
           <img src="https://avatars2.githubusercontent.com/u/45473363?s=460&u=76fc783175bccafd8c99abdf1d69cb86a6002372&v=4" className="App-logo" alt="logo" loading="lazy" />
           <br></br>
           <h1>

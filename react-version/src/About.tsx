@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+let year = new Date();
+let age: number = year.getFullYear() - 2006; // 2005 is my actual birthyear but there's always an offset when you're born in December
+
 export default class About extends React.Component<any, any> {
   render() {
     return (
@@ -22,11 +25,11 @@ export default class About extends React.Component<any, any> {
             <i>About</i>
           </h1>
             <p className="about-block">I'm very interested in <strong>server-side development, webservices, relational datastructures, informational security, and more!</strong>. I know 
-             <strong> go</strong>, <strong>js</strong>, <strong>python</strong>, <strong>java </strong>
+             <strong> go</strong>, <strong>js</strong>, <strong>python</strong>, <strong>java, </strong>
             <strong>html/css</strong>, and <strong>C</strong>.
             I've also written some
             <strong> C++</strong>. I participate in Vex and FRC Robotics (team <strong>6785M and 5829</strong>).
-            I'm 14;
+            I'm { age };
             currently living in Houston, TX. For more information about my computer science knowledge, <a
                 href='https://github.com/DGKSK8LIFE/WIKNWINTL/blob/master/README.md' className="wiknwintl">Click Here.</a> I am a native English speaker, and am fluent in French. Arabic is 
                 my third language; I am literate in it but definitely need some improvement. I am also learning Russian (self-taught).</p>

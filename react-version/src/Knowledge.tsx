@@ -31,20 +31,24 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Node</li>
               <li>Java</li>
               <li>Flask</li>
-              <li>Gin router</li>
               <li>Revel framework</li>
+              <li>Gin</li>
+              <li>Express.JS</li>
             </ul>
             <h3>Frontend</h3>
             <ul>
-              <li>HTML 5</li>
-              <li>CSS 3</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>Javascript/Typescript</li>
               <li>React</li>
+              <li>Next.JS</li>
+              <li>Wordpress</li>
             </ul>
             <h3>Database technologies</h3>
             <ul>
               <li>MySQL</li>
               <li>Sqlite</li>
+              <li>Redis</li>
             </ul>
           </div>
         </header>

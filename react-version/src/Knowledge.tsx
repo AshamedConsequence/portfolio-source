@@ -50,6 +50,15 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Sqlite</li>
               <li>Redis</li>
             </ul>
+            <h3>DevOps</h3>
+            <ul>
+              <li>Docker</li>
+              <li>Docker-Compose</li>
+              <li>Bash</li>
+              <li>Linux</li>
+              <li>GCP</li>
+              <li>Netlify</li>
+            </ul>
           </div>
         </header>
       </div>

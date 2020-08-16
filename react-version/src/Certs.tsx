@@ -25,7 +25,7 @@ export default class Certs extends React.Component<any, any> {
             <br/>
             <div className="card">
                 <div className="container">
-                    <img src="https://www.awseducate.com/mstudent/resource/Minor_Badge_Icons/BuilderBadgeComplete.png"></img>
+                    <img src="https://www.awseducate.com/mstudent/resource/Minor_Badge_Icons/BuilderBadgeComplete.png" alt='AWS educate Cloud Builder Badge'></img>
                 </div>
             </div>
         </header>

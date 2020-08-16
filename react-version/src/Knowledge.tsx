@@ -28,7 +28,7 @@ export default class Knowledge extends React.Component<any, any> {
             <ul>
               <li>Go</li> 
               <li>Python</li>
-              <li>Node</li>
+              <li>Node/Typescript</li>
               <li>Java</li>
               <li>Flask</li>
               <li>Revel framework</li>

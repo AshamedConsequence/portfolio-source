@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 let year = new Date();
 let age: number = year.getFullYear() - 2006; // 2005 is my actual birthyear but there's always an offset when you're born in December
@@ -14,10 +15,10 @@ export default class About extends React.Component<any, any> {
           </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-item nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
-      <a className="nav-item nav-link" href="/about">About Me</a>
-      <a className="nav-item nav-link" href="/knowledge">My Knowledge</a>
-      <a className="nav-item nav-link" href="/certs">Badges/Certifications</a>
+          <Link className="nav-item nav-link active" to="/">Home <span className="sr-only">(current)</span></Link>
+      <Link className="nav-item nav-link" to="/about">About Me</Link>
+      <Link className="nav-item nav-link" to="/knowledge">My Knowledge</Link>
+      <Link className="nav-item nav-link" to="/certs">Badges/Certifications</Link>
     </div>
   </div>
         </nav>

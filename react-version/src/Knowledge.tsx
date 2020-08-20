@@ -43,6 +43,8 @@ export default class Knowledge extends React.Component<any, any> {
               <li>React</li>
               <li>Next.JS</li>
               <li>Wordpress</li>
+              <li>Scss</li>
+              <li>Bootstrap</li>
             </ul>
             <h3>Database technologies</h3>
             <ul>

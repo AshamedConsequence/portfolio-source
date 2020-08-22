@@ -34,6 +34,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Revel framework</li>
               <li>Gin</li>
               <li>Express.JS</li>
+              <li>C</li>
             </ul>
             <h3>Frontend</h3>
             <ul>

@@ -74,7 +74,14 @@ var Knowledge = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", null, "Bash"),
                         react_1["default"].createElement("li", null, "Linux"),
                         react_1["default"].createElement("li", null, "GCP"),
-                        react_1["default"].createElement("li", null, "Netlify"))))));
+                        react_1["default"].createElement("li", null, "Netlify")),
+                    react_1["default"].createElement("h3", null, "Hardware"),
+                    react_1["default"].createElement("ul", null,
+                        react_1["default"].createElement("li", null, "RaspberryPI"),
+                        react_1["default"].createElement("li", null, "Arduino"),
+                        react_1["default"].createElement("li", null, "Sunfounder Sensor Kit"),
+                        react_1["default"].createElement("li", null, "Computer Hardware"),
+                        react_1["default"].createElement("li", null, "Building PC"))))));
     };
     return Knowledge;
 }(react_1["default"].Component));

@@ -52,7 +52,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>MySQL</li>
               <li>Sqlite</li>
               <li>Redis</li>
-            </ul>
+            </ul> 
             <h3>DevOps</h3>
             <ul>
               <li>Docker</li>
@@ -61,6 +61,14 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Linux</li>
               <li>GCP</li>
               <li>Netlify</li>
+            </ul>
+            <h3>Hardware</h3>
+            <ul>
+              <li>RaspberryPI</li>
+              <li>Arduino</li>
+              <li>Sunfounder Sensor Kit</li>
+              <li>Computer Hardware</li>
+              <li>Building PC</li>
             </ul>
           </div>
         </header>

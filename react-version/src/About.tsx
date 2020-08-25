@@ -29,7 +29,7 @@ export default class About extends React.Component<any, any> {
              <strong> go</strong>, <strong>js</strong>, <strong>python</strong>, <strong>java, </strong>
             <strong>html/css</strong>, and <strong>C</strong>.
             I've also written some
-            <strong> C++</strong>. I participate in Vex and FRC Robotics (team <strong>6785M and 5829</strong>).
+            <strong> C++ and C#</strong>. I participate in Vex and FRC Robotics (team <strong>6785M and 5829</strong>).
             I'm { age };
             currently living in Houston, TX. For more information about my computer science knowledge, <a
                 href='https://github.com/DGKSK8LIFE/WIKNWINTL/blob/master/README.md' className="wiknwintl">Click Here.</a> I am a native English speaker, and am fluent in French. Arabic is 

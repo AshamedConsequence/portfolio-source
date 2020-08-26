@@ -65,6 +65,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Linux</li>
               <li>GCP</li>
               <li>Netlify</li>
+              <li>Git/Github</li>
             </ul>
             <h3>Hardware</h3>
             <ul>

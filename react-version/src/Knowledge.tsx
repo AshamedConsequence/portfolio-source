@@ -87,6 +87,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Docker-Compose</li>
               <li>Bash</li>
               <li>Linux</li>
+              <li>Github Actions</li>
               <li>Git/Github</li>
             </ul>
             <h3>Cloud</h3>

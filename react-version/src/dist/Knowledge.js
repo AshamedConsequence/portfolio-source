@@ -78,6 +78,7 @@ var Knowledge = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", null, "Docker-Compose"),
                         react_1["default"].createElement("li", null, "Bash"),
                         react_1["default"].createElement("li", null, "Linux"),
+                        react_1["default"].createElement("li", null, "Github Actions"),
                         react_1["default"].createElement("li", null, "Git/Github")),
                     react_1["default"].createElement("h3", null, "Cloud"),
                     react_1["default"].createElement("ul", null,

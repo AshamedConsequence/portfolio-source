@@ -55,7 +55,8 @@ var Knowledge = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", null, "GraphQL"),
                         react_1["default"].createElement("li", null, "REST"),
                         react_1["default"].createElement("li", null, "JWT"),
-                        react_1["default"].createElement("li", null, "Session Auth")),
+                        react_1["default"].createElement("li", null, "Session Auth"),
+                        react_1["default"].createElement("li", null, "C#")),
                     react_1["default"].createElement("h3", null, "Frontend"),
                     react_1["default"].createElement("ul", null,
                         react_1["default"].createElement("li", null, "HTML"),
@@ -86,7 +87,12 @@ var Knowledge = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", null, "Arduino"),
                         react_1["default"].createElement("li", null, "Sunfounder Sensor Kit"),
                         react_1["default"].createElement("li", null, "Computer Hardware"),
-                        react_1["default"].createElement("li", null, "Building PC"))))));
+                        react_1["default"].createElement("li", null, "Building PC")),
+                    react_1["default"].createElement("h3", null, "Other software"),
+                    react_1["default"].createElement("ul", null,
+                        react_1["default"].createElement("li", null, "Office 365 Suite"),
+                        react_1["default"].createElement("li", null, "Adobe Creative Cloud Suite"),
+                        react_1["default"].createElement("li", null, "Unity Game Engine"))))));
     };
     return Knowledge;
 }(react_1["default"].Component));

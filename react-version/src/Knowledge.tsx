@@ -87,9 +87,12 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Docker-Compose</li>
               <li>Bash</li>
               <li>Linux</li>
+              <li>Git/Github</li>
+            </ul>
+            <h3>Cloud</h3>
+            <ul>
               <li>GCP</li>
               <li>Netlify</li>
-              <li>Git/Github</li>
             </ul>
             <h3>Hardware</h3>
             <ul>

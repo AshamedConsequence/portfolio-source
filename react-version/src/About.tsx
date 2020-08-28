@@ -25,11 +25,8 @@ export default class About extends React.Component<any, any> {
           <h1>
             <i>About</i>
           </h1>
-            <p className="about-block">I'm very interested in <strong>server-side development, webservices, relational datastructures, informational security, and more!</strong>. I know 
-             <strong> go</strong>, <strong>js</strong>, <strong>python</strong>, <strong>java, </strong>
-            <strong>html/css</strong>, and <strong>C</strong>.
-            I've also written some
-            <strong> C++ and C#</strong>. I participate in Vex and FRC Robotics (team <strong>6785M and 5829</strong>).
+            <p className="about-block">I'm very interested in <strong>server-side development, webservices, relational datastructures, informational security, devops, and more!</strong>. 
+            I participate in Vex and FRC Robotics (team <strong>6785M and 5829</strong>). I love creating and contributing to open source software; if you need any help or a contributor, hit me up.
             I'm { age };
             currently living in Houston, TX. For more information about my computer science knowledge, <a
                 href='https://github.com/DGKSK8LIFE/WIKNWINTL/blob/master/README.md' className="wiknwintl">Click Here.</a> I am a native English speaker, and am fluent in French. Arabic is 

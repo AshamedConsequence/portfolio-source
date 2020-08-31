@@ -115,6 +115,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Office 365 Suite</li>
               <li>Adobe Creative Cloud Suite</li>
               <li>Unity Game Engine</li>
+              <li>Blender</li>
             </ul>
           </div>
         </header>

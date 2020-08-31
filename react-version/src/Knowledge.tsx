@@ -63,6 +63,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>JWT</li>
               <li>Session Auth</li>
               <li>C#</li>
+              <li>System Design</li>
             </ul>
             <h3>Frontend</h3>
             <ul>
@@ -109,6 +110,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Nmap</li>
               <li>Wireshark</li>
               <li>Malduino</li>
+              <li>InfoSec</li>
             </ul>
             <h3>Other software</h3>
             <ul>

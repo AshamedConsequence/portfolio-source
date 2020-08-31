@@ -103,6 +103,13 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Computer Hardware</li>
               <li>Building PC</li>
             </ul>
+            <h3>Cybersecurity</h3>
+            <ul>
+              <li>TryHackMe!</li>
+              <li>Nmap</li>
+              <li>Wireshark</li>
+              <li>Malduino</li>
+            </ul>
             <h3>Other software</h3>
             <ul>
               <li>Office 365 Suite</li>

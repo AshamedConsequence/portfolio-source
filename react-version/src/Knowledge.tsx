@@ -75,6 +75,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Wordpress</li>
               <li>Scss</li>
               <li>Bootstrap</li>
+              <li>React-Native</li>
             </ul>
             <h3>Database technologies</h3>
             <ul>
@@ -118,6 +119,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Adobe Creative Cloud Suite</li>
               <li>Unity Game Engine</li>
               <li>Blender</li>
+              <li>OnShape</li>
             </ul>
           </div>
         </header>

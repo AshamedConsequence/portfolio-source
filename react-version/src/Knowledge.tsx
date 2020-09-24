@@ -54,6 +54,7 @@ export default class Knowledge extends React.Component<any, any> {
               <li>MySQL</li>
               <li>Sqlite</li>
               <li>Redis</li>
+              <li>MongoDB</li>
             </ul>
             <h3>DevOps</h3>
             <ul>

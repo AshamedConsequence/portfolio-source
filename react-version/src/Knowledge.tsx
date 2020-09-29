@@ -86,6 +86,13 @@ export default class Knowledge extends React.Component<any, any> {
               <li>Malduino</li>
               <li>InfoSec</li>
             </ul>
+            <h3>Data Science</h3>
+            <ul>
+              <li>Keras/Tensorflow</li>
+              <li>Numpy</li>
+              <li>CSV</li>
+              <li>Matplotlib</li>
+            </ul>
             <h3>Other software</h3>
             <ul>
               <li>Office 365 Suite</li>

@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Link } from "react-router-dom";
 import NavBar from "./utils/NavBar";
 
 let year = new Date();
 let age: number = year.getFullYear() - 2006; // 2005 is my actual birthyear but there's always an offset when you're born in December
 
-export default class About extends React.Component<any, any> {
-  render() {
+export default function About() {
     return (
       <div className="App">
         <header className="App-header">
@@ -40,4 +38,3 @@ export default class About extends React.Component<any, any> {
       </div>
     );
   }
-}

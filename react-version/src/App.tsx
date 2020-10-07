@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
-import { Link } from "react-router-dom";
 import NavBar from "./utils/NavBar";
 
-export default class App extends React.Component<any, any> {
-  render() {
+export default function App(){
     return (
       <div className="App">
         <header className="App-header">
@@ -21,19 +19,18 @@ export default class App extends React.Component<any, any> {
           </h1>
           <footer className="frontpage_footer">
             <a href="https://github.com/DGKSK8LIFE/">
-              <img src="icons8-github.svg" className="github"></img>
+              <img src="icons8-github.svg" alt="github-logo" className="github"></img>
             </a>
             &nbsp; &nbsp; &nbsp;
             <a href="mailto:tarekali15@outlook.com">
-              <img src="interface.svg" className="mail"></img>
+              <img src="interface.svg" alt="mail" className="mail"></img>
             </a>
             &nbsp; &nbsp; &nbsp;
             <a href="https://twitter.com/TarekAl62101525">
-              <img src="twitter.svg" className="twitter"></img>
+              <img src="twitter.svg" className="twitter" alt="twitter-bird"></img>
             </a>
           </footer>
         </header>
       </div>
     );
-  }
 }
